@@ -9,6 +9,7 @@ public class Book {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int bookId;
 
+    @Column(name = "bookName")
     private String title;
 
     private int price;
